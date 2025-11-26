@@ -1,0 +1,17 @@
+dataset/
+docker/hdfs/
+docker/hdfs/*
+
+# Ignorar todo lo auto-generado por Hadoop
+docker/hdfs/datanode-a/
+docker/hdfs/datanode-b/
+docker/hdfs/namenode/
+
+# Variables de entorno
+*.env
+.env
+hadoop.env
+
+# Python
+__pycache__/
+*.pyc

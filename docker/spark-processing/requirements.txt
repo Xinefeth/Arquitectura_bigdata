@@ -1,0 +1,8 @@
+tensorflow==2.10.0
+numpy
+pillow
+hdfs
+kafka-python
+opencv-python-headless
+pandas>=1.0.5
+scikit-learn==1.2.2
